@@ -6,6 +6,6 @@ services:
     build: .
     restart: always
     ports:
-      - "0.0.0.0:13000:80"
+      - "0.0.0.0:10001:80"
     environment:
       - FLAG=flag{Vim_1s_VeRy_g00d}
